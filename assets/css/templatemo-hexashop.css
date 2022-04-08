@@ -34,6 +34,14 @@ font & reset css
 reset
 --------------------------------------------- 
 */
+.hoverpictures{
+  background-color: rgb(110 37 37 / 89%) !important;
+}
+.header-area .main-nav .nav li:hover a,
+.header-area .main-nav .nav li a.hover {
+color: rgb(160, 39, 39)!important;
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -224,7 +232,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #2a2a2a!important;
+  color: #af2b2b!important;
 }
 
 .background-header .nav li a.active {
@@ -318,7 +326,7 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #aaa!important;
+  color: rgb(160, 39, 39)!important;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -910,7 +918,7 @@ Men
 #men .owl-nav .owl-next:before {
   display: inline-block;
   font-family: 'FontAwesome';
-  color: #2a2a2a;
+  color: #5e2121;
   font-size: 25px;
   font-weight: 700;
   content: '\f105';
@@ -918,7 +926,7 @@ Men
   height: 50px;
   background-color: transparent;
   line-height: 48px;
-  border :1px solid #2a2a2a;
+  border :1px solid #5e2121;
 }
 
 
@@ -1033,7 +1041,7 @@ Women
 #women .owl-nav .owl-prev:before {
   display: inline-block;
   font-family: 'FontAwesome';
-  color: #2a2a2a;
+  color: #5e2121;
   font-size: 25px;
   font-weight: 700;
   content: '\f104';
@@ -1041,7 +1049,7 @@ Women
   height: 50px;
   background-color: transparent;
   line-height: 48px;
-  border :1px solid #2a2a2a;
+  border :1px solid #5e2121;
 }
 
 #women .owl-nav .owl-prev {
@@ -1576,7 +1584,7 @@ Products Page
 .page-heading {
   margin-top: 160px;
   margin-bottom: 30px;
-  background-image: url(../images/products-page-heading.jpg);
+  background-image: url(../Risk/phone.jpeg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1912,10 +1920,10 @@ About Us Page
 --------------------------------------------- 
 */
 
-.about-page-heading {
+.about-heading {
   margin-top: 160px;
   margin-bottom: 30px;
-  background-image: url(../images/about-us-page-heading.jpg);
+  background-image: url(../Risk/About.jpeg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
